@@ -3,6 +3,9 @@
 import { useState } from "react";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
+import SocialLinks from "./components/SocialLinks";
+import Footer from "./components/Footer";
+
 
 
 function App() {
@@ -12,6 +15,7 @@ function App() {
     <div>
      <Navbar setPage = {setPage} />
      <Home/>
+     <Footer />
      
      </div>
      

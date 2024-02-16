@@ -17,8 +17,8 @@ import sunilImage from "../assets/sunil.png";
                         </button>
                 </div>
             </div>
-            <div>
-                <img src={sunilImage} alt="myself"  className=" rounded-2xl mx-auto w-2/3 md:w-1/2"/>
+            <div className="flex p-8">
+                <img src={sunilImage} alt="myself"  className=" rounded-2xl mx-auto  w-2/3 sm:w-96 sm:h-96"/>
             </div>
         </div>
        
